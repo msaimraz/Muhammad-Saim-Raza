@@ -158,8 +158,9 @@ export default {
       ],
       reactjs: [
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/2.jpg"),
+          src: require("../assets/img/portfolio/2-1.png"),
+          title: 'SocialBump',
+          description: "https://socialbump.herokuapp.com",
         },
         {
           src: require("../assets/img/portfolio/2.jpg"),
