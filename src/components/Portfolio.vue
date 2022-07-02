@@ -73,7 +73,7 @@
         <li v-for="(image, imageIndex) in reactjs" :key="imageIndex" @click="index = imageIndex">
           <div class="inner">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
-              <img class="image" :src="image.thumb" alt="Portfolio" />
+              <img class="image" :src="image.src" alt="Portfolio" />
             </div>
           </div>
         </li>

@@ -15,9 +15,16 @@
             best possible way for a problem.
           </p>
           <div class="tokyo_tm_button">
-            <button class="ib-button" @click="showModal">Read More</button>
+            <button class="ib-button" @click="showModal">Read More</button> <br><br>
+            <a class="ib-button" href="#" target="_blank">Download CV</a>
+
           </div>
-        </div>
+          <!-- <div class="tokyo_tm_button">
+            <button class="ib-button" >Download CV</button>
+            <a class="ib-button" href="/">Download CV</a>
+          </div>-->
+        </div> 
+        
         <!-- End .left -->
 
         <div class="right">
