@@ -3,7 +3,7 @@
 
     <div class="short_info">
 
-      <!-- <h1>Hello</h1> -->
+      <h1>Welcome</h1>
     </div>
     <!-- End .short_info -->
 

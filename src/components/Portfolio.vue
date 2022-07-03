@@ -39,7 +39,7 @@
         <li v-for="(image, imageIndex) in allItems" :key="imageIndex" @click="index = imageIndex">
           <div class="inner">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
-              <img class="image" :src="image.thumb" alt="Portfolio" />
+              <img class="image" :src="image.src" alt="Portfolio" />
             </div>
           </div>
         </li>
@@ -109,24 +109,34 @@ export default {
       activetab: 1,
       allItems: [
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/5.jpg"),
+          src: require("../assets/img/portfolio/1-5.png"),
+          title: 'exe',
+          description: "http://cnet-web.consulnet.net/webservices",
+        },
+        {
+          src: require("../assets/img/portfolio/1-2.png"),
+          title: 'The Moving Room',
+          description: "https://tempkate.netlify.app",
+        },
+        {
+          src: require("../assets/img/portfolio/1-1.png"),
           title: 'Team Reporter App',
-          description: "Source Code",
-          // link:"https://github.com/msaimraz/Projects/tree/main/Team%20Reporter"
+          description: "https://teamreporterapp.netlify.app",
         },
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/2.jpg"),
+          src: require("../assets/img/portfolio/1-3.png"),
+          title: 'WorkChest',
+          description: "https://workchest.netlify.app",
         },
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/4.jpg"),
+          src: require("../assets/img/portfolio/1-4.png"),
+          title: 'Books',
+          description: "https://teamreporterapp.netlify.app",
         },
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/2.jpg"),
-          source: "https://github.com/msaimraz/Projects/tree/main/Team%20Reporter",
+          src: require("../assets/img/portfolio/2-1.png"),
+          title: 'SocialBump',
+          description: "https://socialbump.herokuapp.com",
         },
       ],
       htmlcss: [
