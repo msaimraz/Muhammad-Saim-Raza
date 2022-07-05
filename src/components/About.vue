@@ -1,7 +1,7 @@
 <template>
   <div class="tokyo_tm_about">
     <div class="about_image">
-      <img src="../assets/img/slider/1.jpg" alt="about" />
+      <img src="../assets/img/slider/1.png" alt="about" />
     </div>
     <!-- End .about_image -->
 
@@ -16,7 +16,7 @@
           </p>
           <div class="tokyo_tm_button">
             <button class="ib-button" @click="showModal">Read More</button> <br><br>
-            <a class="ib-button" href="#" target="_blank">Download CV</a>
+            <a class="ib-button" href="[../.pdf]" download="M Saim Raza-MERN Stack Developer-Resume">Download CV</a>
 
           </div>
           <!-- <div class="tokyo_tm_button">

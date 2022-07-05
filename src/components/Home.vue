@@ -26,7 +26,7 @@ export default {
   },
   data() {
     return {
-      src1: require("../assets/img/slider/1.jpg"),
+      src1: require("../assets/img/slider/1.png"),
     };
   },
 };
