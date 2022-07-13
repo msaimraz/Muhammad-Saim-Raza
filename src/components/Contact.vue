@@ -22,30 +22,30 @@
     </div> -->
     <!-- End Google Map -->
 
-    <div class="fields">
+    <div class="fields right">
       <ul>
         <li>
           <p>
-            <img style="width: 60px;" src="../assets/img/contact/whatsapp.png" alt="whatsapp" />
+            <img  src="../assets/img/contact/whatsapp.png" alt="whatsapp" />
             <a href="https://wa.me/message/GPILAE3F4RLEH1" target="_blank" rel="noopener noreferrer">+92 322 8604563</a>
           </p>
         </li>
         <li>
           <p>
-            <img style="width: 60px;" src="../assets/img/contact/facebook.png" alt="facebook" />
+            <img  src="../assets/img/contact/facebook.png" alt="facebook" />
             <a href="https://www.facebook.com/m.saimraz" target="_blank" rel="noopener noreferrer">Muhammad Saim
               Raza</a>
           </p>
         </li>
         <li>
           <p>
-            <img style="width: 60px;" src="../assets/img/contact/gmail.png" alt="gmail" />
+            <img  src="../assets/img/contact/gmail.png" alt="gmail" />
             <a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
           </p>
         </li>
         <li>
           <p>
-            <img style="width: 60px;" src="../assets/img/contact/linkedin.png" alt="linkedin" />
+            <img  src="../assets/img/contact/linkedin.png" alt="linkedin" />
             <a href="https://www.linkedin.com/in/m-saim-raza" target="_blank" rel="noopener noreferrer">Muhammad Saim Raza</a>
           </p>
         </li>
