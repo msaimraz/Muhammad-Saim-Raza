@@ -22,7 +22,7 @@
     </div> -->
     <!-- End Google Map -->
 
-    <div class="fields right">
+    <div class="fields">
       <ul>
         <li>
           <p>
@@ -39,12 +39,6 @@
         </li>
         <li>
           <p>
-            <img src="../assets/img/contact/gmail.png" alt="gmail logo" />
-            <a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
-          </p>
-        </li>
-        <li>
-          <p>
             <img src="../assets/img/contact/linkedin.png" alt="linkedin logo" />
             <a href="https://www.linkedin.com/in/m-saim-raza" target="_blank" rel="noopener noreferrer">Muhammad Saim
               Raza</a>
@@ -55,6 +49,12 @@
             <img src="../assets/img/contact/instagram.png" alt="instagram logo" />
             <a href="https://www.instagram.com/m.saimraz" target="_blank" rel="noopener noreferrer">Muhammad Saim
               Raza</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <img src="../assets/img/contact/gmail.png" alt="gmail logo" />
+            <a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
           </p>
         </li>
       </ul>

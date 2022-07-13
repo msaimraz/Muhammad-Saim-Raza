@@ -640,7 +640,7 @@ h6 {
 .ib-button {
   font-size: 15px;
   line-height: 15px;
-  padding: 19px 40px !important; 
+  padding: 19px 40px !important;
   border: none;
   cursor: pointer;
 
@@ -1588,6 +1588,17 @@ body.modal {
   clear: both;
   float: left;
   padding: 100px 0px 100px 0px;
+}
+
+.tokyo_tm_contact .fields>ul>li a {
+  margin: 20px;
+  text-decoration: none;
+  color: #767676;
+  display: inline-block;
+  font-weight: 500;
+  font-family: "Montserrat";
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .tokyo_tm_contact .map_wrap {
