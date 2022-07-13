@@ -35,7 +35,14 @@ const routes = [
     component: () =>
       import("../views/HomeDark.vue"),
   },
-
+  // {
+  //   path: '/resume',
+  //   name: "Resume",
+  //   meta: {
+  //     title: 'Resume'
+  //   },
+  //   // component: () => import("../views/NotFound.vue")
+  // },
   {
     path: '*',
     name: NotFound,

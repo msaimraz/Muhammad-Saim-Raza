@@ -16,7 +16,8 @@
           </p>
           <div class="tokyo_tm_button">
             <button class="ib-button" @click="showModal">Read More</button> <br><br>
-            <a class="ib-button" href="[../.pdf]" download="M Saim Raza-MERN Stack Developer-Resume">Download CV</a>
+            <!-- <a class="ib-button" href="[../.pdf]" download="M Saim Raza-MERN Stack Developer-Resume">Download CV</a> -->
+            <a class="ib-button" href="/Muhammad Saim Raza-MERN Stack Developer-Resume.pdf" target="_blank">Download CV</a>
 
           </div>
           <!-- <div class="tokyo_tm_button">
