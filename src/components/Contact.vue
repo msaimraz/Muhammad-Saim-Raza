@@ -26,27 +26,35 @@
       <ul>
         <li>
           <p>
-            <img  src="../assets/img/contact/whatsapp.png" alt="whatsapp" />
-            <a href="https://wa.me/message/GPILAE3F4RLEH1" target="_blank" rel="noopener noreferrer">+92 322 8604563</a>
+            <img src="../assets/img/contact/whatsapp.png" alt="whatsapp logo" />
+            <a href="https://wa.me/message/PRB3TC7BNYQBB1" target="_blank" rel="noopener noreferrer">+92 322 8604563</a>
           </p>
         </li>
         <li>
           <p>
-            <img  src="../assets/img/contact/facebook.png" alt="facebook" />
+            <img src="../assets/img/contact/facebook.png" alt="facebook logo" />
             <a href="https://www.facebook.com/m.saimraz" target="_blank" rel="noopener noreferrer">Muhammad Saim
               Raza</a>
           </p>
         </li>
         <li>
           <p>
-            <img  src="../assets/img/contact/gmail.png" alt="gmail" />
+            <img src="../assets/img/contact/gmail.png" alt="gmail logo" />
             <a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
           </p>
         </li>
         <li>
           <p>
-            <img  src="../assets/img/contact/linkedin.png" alt="linkedin" />
-            <a href="https://www.linkedin.com/in/m-saim-raza" target="_blank" rel="noopener noreferrer">Muhammad Saim Raza</a>
+            <img src="../assets/img/contact/linkedin.png" alt="linkedin logo" />
+            <a href="https://www.linkedin.com/in/m-saim-raza" target="_blank" rel="noopener noreferrer">Muhammad Saim
+              Raza</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <img src="../assets/img/contact/instagram.png" alt="instagram logo" />
+            <a href="https://www.instagram.com/m.saimraz" target="_blank" rel="noopener noreferrer">Muhammad Saim
+              Raza</a>
           </p>
         </li>
       </ul>
