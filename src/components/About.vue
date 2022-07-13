@@ -32,22 +32,22 @@
             <li>
               <p><span>Birthday:</span>16.06.2002</p>
             </li>
-            <li>
+            <!-- <li>
               <p><span>Age:</span>20</p>
-            </li>
+            </li> -->
             <li>
               <p><span>Address:</span>Soldier Bazar, Karachi</p>
             </li>
-            <li>
+            <!-- <li>
               <p>
                 <span>Email:</span><a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
               </p>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <p>
-                <span>Phone:</span><a href="tel:+770221770505">+92 304 2204590</a>
+                <span>Phone:</span><a href="tel:+923228604563">+92 322 8604563</a>
               </p>
-            </li>
+            </li> -->
             <li>
               <p><span>Study:</span>Virtual University of Pakistan</p>
             </li>

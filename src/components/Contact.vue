@@ -23,7 +23,35 @@
     <!-- End Google Map -->
 
     <div class="fields">
-      <ValidationObserver v-slot="{ handleSubmit }">
+      <ul>
+        <li>
+          <p>
+            <img style="width: 60px;" src="../assets/img/contact/whatsapp.png" alt="whatsapp" />
+            <a href="https://wa.me/message/GPILAE3F4RLEH1" target="_blank" rel="noopener noreferrer">+92 322 8604563</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <img style="width: 60px;" src="../assets/img/contact/facebook.png" alt="facebook" />
+            <a href="https://www.facebook.com/m.saimraz" target="_blank" rel="noopener noreferrer">Muhammad Saim
+              Raza</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <img style="width: 60px;" src="../assets/img/contact/gmail.png" alt="gmail" />
+            <a href="mailto:mail@gmail.com">msraza.02@gmail.com</a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <img style="width: 60px;" src="../assets/img/contact/linkedin.png" alt="linkedin" />
+            <a href="https://www.linkedin.com/in/m-saim-raza" target="_blank" rel="noopener noreferrer">Muhammad Saim Raza</a>
+          </p>
+        </li>
+      </ul>
+
+      <!-- <ValidationObserver v-slot="{ handleSubmit }">
         <form class="contact_form" @submit.prevent="handleSubmit(onSubmit)">
           <div class="first">
             <ul>
@@ -52,33 +80,33 @@
             <button type="submit" class="ib-button">Send Message</button>
           </div>
         </form>
-      </ValidationObserver>
+      </ValidationObserver> -->
     </div>
     <!-- END FIELDS -->
   </div>
 </template>
 
 <script>
-import { ValidationObserver } from "vee-validate";
-import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
-export default {
-  components: {
-    ValidationObserver,
-    ValidationProvider,
-  },
-  data() {
-    return {
-      formData: {
-        name: "",
-        email: "",
-        message: "",
-      },
-    };
-  },
-  methods: {
-    onSubmit() {
-      console.log(this.formData);
-    },
-  },
-};
+// import { ValidationObserver } from "vee-validate";
+// import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
+// export default {
+//   components: {
+//     ValidationObserver,
+//     ValidationProvider,
+//   },
+//   data() {
+//     return {
+//       formData: {
+//         name: "",
+//         email: "",
+//         message: "",
+//       },
+//     };
+//   },
+//   methods: {
+//     onSubmit() {
+//       console.log(this.formData);
+//     },
+//   },
+// };
 </script>
