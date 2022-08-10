@@ -7,7 +7,7 @@
         </div>
         <div class="copyright">
           <p>
-            &copy; {{ new Date().getFullYear() }} <strong>M tokyo Raza</strong> <br />
+            &copy; {{ new Date().getFullYear() }} <strong>M Saim Raza</strong> <br />
             All Rights Reserved
           </p>
         </div>
@@ -35,7 +35,7 @@
     <footer class="footer-wrapper">
       <div class="copyright">
         <p>
-          &copy; {{ new Date().getFullYear() }} <strong>M tokyo Raza</strong> <br />
+          &copy; {{ new Date().getFullYear() }} <strong>M Saim Raza</strong> <br />
           All Rights Reserved
         </p>
       </div>
