@@ -96,16 +96,25 @@
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span><span class="label">React JS</span><span class="number">70%</span></span>
+                      <span><span class="label">React JS-Next JS-Vue JS</span><span class="number">60%</span></span>
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:70%"></div>
+                          <div class="bar_in" style="width:60%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
                       <span><span class="label">Node JS-Express JS</span><span class="number">50%</span></span>
+                      <div class="background">
+                        <div class="bar">
+                          <div class="bar_in" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End progress_inner -->
+                    <div class="progress_inner">
+                      <span><span class="label">Wordpress</span><span class="number">50%</span></span>
                       <div class="background">
                         <div class="bar">
                           <div class="bar_in" style="width:50%"></div>

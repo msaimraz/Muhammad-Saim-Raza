@@ -14,15 +14,15 @@
             </li>
             <!-- End All for tabcontent 1 -->
             <li>
-              <a v-on:click="activetab = 2" :class="[activetab === 2 ? 'active' : '']">HTML-CSS</a>
+              <a v-on:click="activetab = 2" :class="[activetab === 2 ? 'active' : '']">HTML-CSS-JS</a>
             </li>
             <!-- End Vimeo tabcontent 2 -->
             <li>
-              <a v-on:click="activetab = 3" :class="[activetab === 3 ? 'active' : '']">React JS</a>
+              <a v-on:click="activetab = 3" :class="[activetab === 3 ? 'active' : '']">React JS-Next JS-Vue Js</a>
             </li>
             <!-- End .Youtube tabcontent 3 -->
             <li>
-              <a v-on:click="activetab = 4" :class="[activetab === 4 ? 'active' : '']">MERN</a>
+              <a v-on:click="activetab = 4" :class="[activetab === 4 ? 'active' : '']">Wordpress</a>
             </li>
             <!-- End Mix tabcontent 4 -->
           </ul>
@@ -37,10 +37,11 @@
         <CoolLightBox :items="allItems" :index="index" @close="index = null">
         </CoolLightBox>
         <li v-for="(image, imageIndex) in allItems" :key="imageIndex" @click="index = imageIndex">
-          <div class="inner">
+          <div class="inner tokyo_tm_button">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
               <img class="image" :src="image.src" alt="Portfolio" />
             </div>
+            <a class="ib-button" :href="image.link" target="_blank">Link</a>
           </div>
         </li>
         <!-- End li -->
@@ -51,13 +52,14 @@
 
     <div v-if="activetab === 2" class="tabcontent">
       <ul class="portfolio_list">
-        <CoolLightBox :items="htmlcss" :index="index" @close="index = null">
+        <CoolLightBox :items="htmlcssjs" :index="index" @close="index = null">
         </CoolLightBox>
-        <li v-for="(image, imageIndex) in htmlcss" :key="imageIndex" @click="index = imageIndex">
-          <div class="inner">
+        <li v-for="(image, imageIndex) in htmlcssjs" :key="imageIndex" @click="index = imageIndex">
+          <div class="inner tokyo_tm_button">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
               <img class="image" :src="image.src" alt="Portfolio" />
             </div>
+            <a class="ib-button" :href="image.link" target="_blank">Link</a>
           </div>
         </li>
         <!-- End li -->
@@ -71,10 +73,11 @@
         <CoolLightBox :items="reactjs" :index="index" @close="index = null">
         </CoolLightBox>
         <li v-for="(image, imageIndex) in reactjs" :key="imageIndex" @click="index = imageIndex">
-          <div class="inner">
+          <div class="inner tokyo_tm_button">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
               <img class="image" :src="image.src" alt="Portfolio" />
             </div>
+            <a class="ib-button" :href="image.link" target="_blank">Link</a>
           </div>
         </li>
         <!-- End li -->
@@ -85,13 +88,14 @@
 
     <div v-if="activetab === 4" class="tabcontent">
       <ul class="portfolio_list">
-        <CoolLightBox :items="mern" :index="index" @close="index = null">
+        <CoolLightBox :items="wordpress" :index="index" @close="index = null">
         </CoolLightBox>
-        <li v-for="(image, imageIndex) in mern" :key="imageIndex" @click="index = imageIndex">
-          <div class="inner">
+        <li v-for="(image, imageIndex) in wordpress" :key="imageIndex" @click="index = imageIndex">
+          <div class="inner tokyo_tm_button">
             <div class="entry tokyo_tm_portfolio_animation_wrap">
-              <img class="image" :src="image.thumb" alt="Portfolio" />
+              <img class="image" :src="image.src" alt="Portfolio" />
             </div>
+            <a class="ib-button" :href="image.link" target="_blank">Link</a>
           </div>
         </li>
         <!-- End li -->
@@ -108,87 +112,107 @@ export default {
     return {
       activetab: 1,
       allItems: [
+      {
+          src: require("../assets/img/portfolio/2.2.png"),
+          title: 'The DigiBase',
+          description: "The DigiBase is a Digital Marketing Agency",
+          link: "https://www.thedigibase.com/",
+        },
         {
           src: require("../assets/img/portfolio/1-5.png"),
           title: 'exe',
-          description: "http://cnet-web.consulnet.net/webservices",
+          description: "",
+          link: "http://cnet-web.consulnet.net/webservices",
+        },
+        {
+          src: require("../assets/img/portfolio/3.1.png"),
+          title: 'Dhamaka Store',
+          description: "Dhamaka Store is an affiliated eCommerce Store  ",
+          link: "https://dhamaka.store/",
         },
         {
           src: require("../assets/img/portfolio/1-2.png"),
           title: 'The Moving Room',
-          description: "https://tempkate.netlify.app",
+          description: "",
+          link: "https://tempkate.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-1.png"),
           title: 'Team Reporter App',
-          description: "https://teamreporterapp.netlify.app",
+          description: "",
+          link: "https://teamreporterapp.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-3.png"),
           title: 'WorkChest',
-          description: "https://workchest.netlify.app",
+          description: "",
+          link: "https://workchest.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-4.png"),
           title: 'Books',
-          description: "https://teamreporterapp.netlify.app",
+          description: "",
+          link: "https://teamreporterapp.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/2-1.png"),
           title: 'SocialBump',
-          description: "https://socialbump.herokuapp.com",
+          description: "",
+          link: "https://socialbump.herokuapp.com",
         },
       ],
-      htmlcss: [
+      htmlcssjs: [
         {
           src: require("../assets/img/portfolio/1-5.png"),
           title: 'exe',
-          description: "http://cnet-web.consulnet.net/webservices",
+          description: "",
+          link: "http://cnet-web.consulnet.net/webservices",
         },
         {
           src: require("../assets/img/portfolio/1-1.png"),
           title: 'Team Reporter App',
-          description: "https://teamreporterapp.netlify.app",
+          description: "",
+          link: "https://teamreporterapp.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-2.png"),
           title: 'The Moving Room',
-          description: "https://tempkate.netlify.app",
+          description: "",
+          link: "https://tempkate.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-3.png"),
           title: 'WorkChest',
-          description: "https://workchest.netlify.app",
+          description: "",
+          link: "https://workchest.netlify.app",
         },
         {
           src: require("../assets/img/portfolio/1-4.png"),
           title: 'Books',
-          description: "https://teamreporterapp.netlify.app",
+          description: "",
+          link: "https://teamreporterapp.netlify.app",
         },
       ],
       reactjs: [
         {
           src: require("../assets/img/portfolio/2-1.png"),
           title: 'SocialBump',
-          description: "https://socialbump.herokuapp.com",
+          description: "",
+          link: "https://socialbump.herokuapp.com",
         },
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/3.jpg"),
+          src: require("../assets/img/portfolio/2.2.png"),
+          title: 'The DigiBase',
+          description: "The DigiBase is a Digital Marketing Agency",
+          link: "https://www.thedigibase.com/",
         },
       ],
-      mern: [
+      wordpress: [
         {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/5.jpg"),
-        },
-        {
-          src: require("../assets/img/portfolio/2.jpg"),
-          thumb: require("../assets/img/portfolio/4.jpg"),
-        },
-        {
-          src: require("../assets/img/portfolio/3.jpg"),
-          thumb: require("../assets/img/portfolio/3.jpg"),
+          src: require("../assets/img/portfolio/3.1.png"),
+          title: 'Dhamaka Store',
+          description: "Dhamaka Store is an affiliated eCommerce Store  ",
+          link: "https://dhamaka.store/",
         },
       ],
       index: null,
