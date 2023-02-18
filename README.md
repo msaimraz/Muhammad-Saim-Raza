@@ -2,4 +2,4 @@
 
 Personal Portfolio
 
-© 2022 M Saim Raza. All Rights Reserved.
+© 2023 M Saim Raza. All Rights Reserved.
