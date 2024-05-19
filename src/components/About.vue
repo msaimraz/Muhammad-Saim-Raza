@@ -34,7 +34,7 @@
               <p><span>Age:</span>20</p>
             </li> -->
             <li>
-              <p><span>Address:</span>Soldier Bazar, Karachi</p>
+              <p><span>Address:</span>Karachi, Pakistan</p>
             </li>
             <!-- <li>
               <p>
