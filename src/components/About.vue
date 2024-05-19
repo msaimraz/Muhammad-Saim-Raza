@@ -20,7 +20,7 @@
 
             🔥 Conducted symphonic teamwork, orchestrating seamless collaborations for project triumphs.<br/>
 
-            📈 Supercharged user engagement through meticulous site optimization techniques.<br>
+            📈 Supercharged user engagement through meticulous site optimization techniques.<br/>
 
             🛠️ Forged code structures with longevity in mind, ready to withstand the test of time.<br/>
 
