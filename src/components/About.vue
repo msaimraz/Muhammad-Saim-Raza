@@ -16,7 +16,7 @@
           </p>
           <div class="tokyo_tm_button">
             <button class="ib-button" @click="showModal">Read More</button> <br><br>
-            <a class="ib-button" href="/Muhammad Saim Raza-MERN Stack Developer-Resume.pdf" target="_blank">Download
+            <a class="ib-button" href="/Muhammad Saim Raza-Frontend Developer-Resume.pdf" target="_blank">Download
               CV</a>
 
           </div>
@@ -50,7 +50,7 @@
               <p><span>Study:</span>Virtual University of Pakistan</p>
             </li>
             <li>
-              <p><span>Freelance:</span>Available</p>
+              <p><span>Freelance:</span><a href="https://www.upwork.com/freelancers/~01e6fcc04c252730b4?mp_source=share" target="_blank">Upwork</a></p>
             </li>
           </ul>
           <!-- End ul -->
