@@ -10,23 +10,23 @@
       <div class="description_inner">
         <div class="left">
           <p>
-            Hello, world! 👋 </br>
+            Hello, world! 👋 <br/>
 
-            I'm Muhammad Saim Raza, and I'm not just your average Front-End Developer – I'm your digital wizard, code maestro, and UX visionary all rolled into one. With an enthusiasm for creating captivating web experiences, I've had the privilege of contributing to a remarkable array of local and international projects. Each journey unfolds a unique story; each project is a canvas for boundless innovation. </br>
+            I'm Muhammad Saim Raza, and I'm not just your average Front-End Developer – I'm your digital wizard, code maestro, and UX visionary all rolled into one. With an enthusiasm for creating captivating web experiences, I've had the privilege of contributing to a remarkable array of local and international projects. Each journey unfolds a unique story; each project is a canvas for boundless innovation. <br/>
 
-            💡 Key Achievements:</br>
+            💡 Key Achievements:<br/>
 
-            🚀 Fashioned websites that elicit "wows" with every user click.</br>
+            🚀 Fashioned websites that elicit "wows" with every user click.<br/>
 
-            🔥 Conducted symphonic teamwork, orchestrating seamless collaborations for project triumphs.</br>
+            🔥 Conducted symphonic teamwork, orchestrating seamless collaborations for project triumphs.<br/>
 
-            📈 Supercharged user engagement through meticulous site optimization techniques.</br>
+            📈 Supercharged user engagement through meticulous site optimization techniques.<br>
 
-            🛠️ Forged code structures with longevity in mind, ready to withstand the test of time.</br>
+            🛠️ Forged code structures with longevity in mind, ready to withstand the test of time.<br/>
 
-            💬 Kept my finger on the pulse of industry trends and emerging technologies, pioneering innovation to keep our projects at the forefront of web development.</br>
+            💬 Kept my finger on the pulse of industry trends and emerging technologies, pioneering innovation to keep our projects at the forefront of web development.<br/>
 
-            Ready to supercharge your digital presence? Let's connect, converse, and create something extraordinary. Together, we'll make the digital world stand up and take notice. 🚀</br>
+            Ready to supercharge your digital presence? Let's connect, converse, and create something extraordinary. Together, we'll make the digital world stand up and take notice. 🚀<br/>
 
             #FrontEndDeveloper #WebDevelopment #UIUX #InnovationMatters
           </p>
