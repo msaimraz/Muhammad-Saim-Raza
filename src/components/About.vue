@@ -50,7 +50,8 @@
               <p><span>Study:</span>Virtual University of Pakistan</p>
             </li>
             <li>
-              <p><span>Freelance:</span><a href="https://www.upwork.com/freelancers/~01e6fcc04c252730b4?mp_source=share" target="_blank">Upwork</a></p>
+              <p><span>Freelance:</span><a href="https://www.upwork.com/freelancers/~01e6fcc04c252730b4?mp_source=share"
+                  target="_blank">Upwork</a></p>
             </li>
           </ul>
           <!-- End ul -->
@@ -114,7 +115,7 @@
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
-                      <span><span class="label">Wordpress</span><span class="number">50%</span></span>
+                      <span><span class="label">Wordpress/PrestaShop</span><span class="number">50%</span></span>
                       <div class="background">
                         <div class="bar">
                           <div class="bar_in" style="width:50%"></div>
@@ -178,7 +179,7 @@
                   </li>
                   <li>
                     <div class="list_inner">
-                      <h3>1</h3>
+                      <h3>2</h3>
                       <span>Years Of Experience</span>
                     </div>
                   </li>
@@ -228,5 +229,4 @@ export default {
 };
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>
