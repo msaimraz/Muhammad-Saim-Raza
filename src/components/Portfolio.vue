@@ -21,9 +21,9 @@
               <a v-on:click="activetab = 3" :class="[activetab === 3 ? 'active' : '']">React JS-Next JS-Vue Js</a>
             </li>
             <!-- End .Youtube tabcontent 3 -->
-            <li>
+            <!-- <li>
               <a v-on:click="activetab = 4" :class="[activetab === 4 ? 'active' : '']">Wordpress</a>
-            </li>
+            </li> -->
             <!-- End Mix tabcontent 4 -->
           </ul>
         </div>
@@ -86,7 +86,7 @@
     </div>
     <!-- End .tabcontent 3 -->
 
-    <div v-if="activetab === 4" class="tabcontent">
+    <!-- <div v-if="activetab === 4" class="tabcontent">
       <ul class="portfolio_list">
         <CoolLightBox :items="wordpress" :index="index" @close="index = null">
         </CoolLightBox>
@@ -98,10 +98,10 @@
             <a class="ib-button" :href="image.link" target="_blank">Link</a>
           </div>
         </li>
-        <!-- End li -->
+        End li
       </ul>
-      <!-- End .portfolio_list -->
-    </div>
+      End .portfolio_list
+    </div> -->
     <!-- End .tabcontent 4 -->
   </div>
 </template>
@@ -112,24 +112,30 @@ export default {
     return {
       activetab: 1,
       allItems: [
-      {
+        {
           src: require("../assets/img/portfolio/2.2.png"),
           title: 'The DigiBase',
           description: "The DigiBase is a Digital Marketing Agency",
-          link: "https://www.thedigibase.com/",
+          link: "https://thedigibase.vercel.app/",
         },
         {
-          src: require("../assets/img/portfolio/1-5.png"),
-          title: 'exe',
-          description: "",
-          link: "http://cnet-web.consulnet.net/webservices",
+          src: require("../assets/img/portfolio/1.6.png"),
+          title: 'Royenix',
+          description: "Royenix is a Qatar-based scaffolding & delivery service company",
+          link: "https://royenix.vercel.app/",
         },
-        {
-          src: require("../assets/img/portfolio/3.1.png"),
-          title: 'Dhamaka Store',
-          description: "Dhamaka Store is an affiliated eCommerce Store  ",
-          link: "https://dhamaka.store/",
-        },
+        // {
+        //   src: require("../assets/img/portfolio/1-5.png"),
+        //   title: 'exe',
+        //   description: "",
+        //   link: "http://cnet-web.consulnet.net/webservices",
+        // },
+        // {
+        //   src: require("../assets/img/portfolio/3.1.png"),
+        //   title: 'Dhamaka Store',
+        //   description: "Dhamaka Store is an affiliated eCommerce Store  ",
+        //   link: "https://dhamaka.store/",
+        // },
         {
           src: require("../assets/img/portfolio/1-2.png"),
           title: 'The Moving Room',
@@ -148,26 +154,32 @@ export default {
           description: "",
           link: "https://workchest.netlify.app",
         },
-        {
-          src: require("../assets/img/portfolio/1-4.png"),
-          title: 'Books',
-          description: "",
-          link: "https://teamreporterapp.netlify.app",
-        },
-        {
-          src: require("../assets/img/portfolio/2-1.png"),
-          title: 'SocialBump',
-          description: "",
-          link: "https://socialbump.herokuapp.com",
-        },
+        // {
+        //   src: require("../assets/img/portfolio/1-4.png"),
+        //   title: 'Books',
+        //   description: "",
+        //   link: "https://teamreporterapp.netlify.app",
+        // },
+        // {
+        //   src: require("../assets/img/portfolio/2-1.png"),
+        //   title: 'SocialBump',
+        //   description: "",
+        //   link: "https://socialbump.herokuapp.com",
+        // },
       ],
       htmlcssjs: [
         {
-          src: require("../assets/img/portfolio/1-5.png"),
-          title: 'exe',
-          description: "",
-          link: "http://cnet-web.consulnet.net/webservices",
+          src: require("../assets/img/portfolio/1.6.png"),
+          title: 'Royenix',
+          description: "Royenix is a Qatar-based scaffolding & delivery service company",
+          link: "https://royenix.vercel.app/",
         },
+        // {
+        //   src: require("../assets/img/portfolio/1-5.png"),
+        //   title: 'exe',
+        //   description: "",
+        //   link: "http://cnet-web.consulnet.net/webservices",
+        // },
         {
           src: require("../assets/img/portfolio/1-1.png"),
           title: 'Team Reporter App',
@@ -186,12 +198,12 @@ export default {
           description: "",
           link: "https://workchest.netlify.app",
         },
-        {
-          src: require("../assets/img/portfolio/1-4.png"),
-          title: 'Books',
-          description: "",
-          link: "https://teamreporterapp.netlify.app",
-        },
+        // {
+        //   src: require("../assets/img/portfolio/1-4.png"),
+        //   title: 'Books',
+        //   description: "",
+        //   link: "https://teamreporterapp.netlify.app",
+        // },
       ],
       reactjs: [
         {
@@ -207,19 +219,18 @@ export default {
           link: "https://www.thedigibase.com/",
         },
       ],
-      wordpress: [
-        {
-          src: require("../assets/img/portfolio/3.1.png"),
-          title: 'Dhamaka Store',
-          description: "Dhamaka Store is an affiliated eCommerce Store  ",
-          link: "https://dhamaka.store/",
-        },
-      ],
+      // wordpress: [
+      //   {
+      //     src: require("../assets/img/portfolio/3.1.png"),
+      //     title: 'Dhamaka Store',
+      //     description: "Dhamaka Store is an affiliated eCommerce Store  ",
+      //     link: "https://dhamaka.store/",
+      //   },
+      // ],
       index: null,
     };
   },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
